@@ -6,16 +6,24 @@
 
 .tabs_container{
     gap: 30px;
-    max-width: 700px;
+    max-width: 500px;
     margin: 0 auto;
     margin-top: 150px;
     background-color: aqua;
+    font-size: 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 15px 20px;
+    cursor: pointer;
 }
 
 .tabs_content{
     margin: 0 auto;
     max-width: 700px;
-    /* height: 100px; */
     background-color: #ccc;
     border-radius: 3px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
 }
