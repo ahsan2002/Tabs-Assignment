@@ -1,0 +1,52 @@
+var tab0=document.getElementById("tab-0");
+var con0=document.getElementById("tabc-0");
+con0.style.display="block";
+var tab1=document.getElementById("tab-1");
+var con1=document.getElementById("tabc-1");
+var tab2=document.getElementById("tab-2");
+var con2=document.getElementById("tabc-2");
+var tab3=document.getElementById("tab-3");
+var con3=document.getElementById("tabc-3");
+var tab4=document.getElementById("tab-4");
+var con4=document.getElementById("tabc-4");
+
+function tabchange(val){
+    // console.log(val);
+    if (val==0) {
+        con0.style.display="block";
+        con1.style.display="none";
+        con2.style.display="none";
+        con3.style.display="none";
+        con4.style.display="none";
+    }
+
+    if (val==1) {
+        con0.style.display="none";
+        con1.style.display="block";
+        con2.style.display="none";
+        con3.style.display="none";
+        con4.style.display="none";
+    }
+    if (val==2) {
+        con0.style.display="none";
+        con1.style.display="none";
+        con2.style.display="block";
+        con3.style.display="none";
+        con4.style.display="none";
+    }
+    if (val==3) {
+        con0.style.display="none";
+        con1.style.display="none";
+        con2.style.display="none";
+        con3.style.display="block";
+        con4.style.display="none";
+    }
+    if (val==4) {
+        con0.style.display="none";
+        con1.style.display="none";
+        con2.style.display="none";
+        con3.style.display="none";
+        con4.style.display="block";
+    }
+
+}
