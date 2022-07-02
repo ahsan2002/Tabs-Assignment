@@ -14,7 +14,7 @@
     <div id="tab-0" onclick="tabchange(0)" class="tabs"><i style="margin-right: 6px;" class="fa-solid fa-house"></i>Home</div>
     <div id="tab-1" onclick="tabchange(1)" class="tabs"><i style="margin-right: 6px;" class="fa-solid fa-circle-user"></i>About</div>
     <div id="tab-2" onclick="tabchange(2)" class="tabs"><i style="margin-right: 6px;" class="fa-solid fa-briefcase"></i>Services</div>
-    <div id="tab-3" onclick="" class="tabs">Log in</div>
+    <div id="tab-3" onclick="modalchange()" class="tabs">Log in</div>
     <div id="tab-4" onclick="" class="tabs">Sign up</div>
    </div>
 
@@ -38,6 +38,24 @@
 </div>
 
    </div>
+
+
+
+
+   <form id="modal" action="index.html" class="box">
+    <button class="btn1">X</button>
+    <h1>Login-Form</h1>
+    <input type="text" name="" placeholder="Username">
+    <input type="password" name="" placeholder="Password">
+    <input type="submit" name="" value="Login">
+
+    </form>
+
+
+
+
+
+
 
    <script src="app.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
