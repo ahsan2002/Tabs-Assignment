@@ -6,6 +6,16 @@
 
 .tabs_container{
     gap: 30px;
-    min-width: 500px;
+    max-width: 700px;
+    margin: 0 auto;
     margin-top: 150px;
+    background-color: aqua;
+}
+
+.tabs_content{
+    margin: 0 auto;
+    max-width: 700px;
+    /* height: 100px; */
+    background-color: #ccc;
+    border-radius: 3px;
 }
