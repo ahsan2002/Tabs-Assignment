@@ -59,7 +59,7 @@
     display: none;
 }
 .box h1{
-    color: skyblue;
+    color: rgb(247, 64, 64);
     text-transform: uppercase;
     font-weight: 500;
 }
@@ -79,7 +79,7 @@
 }
 .box input[type="text"]:focus, .box input[type="password"]:focus, .box input[type="email"]:focus{
     width: 280px;
-    border-color: #2874A6;
+    border-color: #a62828;
 }
 .box input[type="submit"]{
     border: 0;
@@ -104,5 +104,5 @@
     border-radius: 50px;
     padding: 5px 10px;
     color: white;
-    background-color: rgb(82, 183, 238);
+    background-color: rgb(238, 82, 82);
 }
