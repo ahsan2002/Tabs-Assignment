@@ -11,28 +11,30 @@
 </head>
 <body>
    <div class="d-flex bd-highlight justify-content-center tabs_container">
-    <div class="tabs"><i style="margin-right: 6px;" class="fa-solid fa-house"></i>Home</div>
-    <div class="tabs"><i style="margin-right: 6px;" class="fa-solid fa-circle-user"></i>About</div>
-    <div class="tabs"><i style="margin-right: 6px;" class="fa-solid fa-briefcase"></i>Services</div>
-    <div class="tabs">Log in</div>
-    <div class="tabs">Sign up</div>
+    <div id="tab-0" onclick="tabchange(0)" class="tabs"><i style="margin-right: 6px;" class="fa-solid fa-house"></i>Home</div>
+    <div id="tab-1" onclick="tabchange(1)" class="tabs"><i style="margin-right: 6px;" class="fa-solid fa-circle-user"></i>About</div>
+    <div id="tab-2" onclick="tabchange(2)" class="tabs"><i style="margin-right: 6px;" class="fa-solid fa-briefcase"></i>Services</div>
+    <div id="tab-3" onclick="tabchange(3)" class="tabs">Log in</div>
+    <div id="tab-4" onclick="tabchange(4)" class="tabs">Sign up</div>
    </div>
 
 
    <div class="tabs_content">
-    <div class="tab_c">
-    <h1 class="tab_heading">First</h1>
-    <p class="tab_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto, quasi!</p>
+    <div id="tabc-0" class="tab_c">
+    <h1 class="tab_heading">Welcome!</h1>
+    <p class="tab_text">This is my tabs assignment</p>
     </div>
 
-    <div class="tab_c">
-    <h1 class="tab_heading">Second</h1>
-    <p class="tab_text">hello everyone</p>
+    <div id="tabc-1" class="tab_c">
+    <h1 class="tab_heading">Who Am I?</h1>
+    <p class="tab_text">My name is <span style="color: rgb(27, 184, 237);">Ahsan Omerjee</span></p>
 </div>
 
-    <div class="tab_c">
-    <h1 class="tab_heading">Third</h1>
-    <p class="tab_text">hello everyone</p>
+    <div id="tabc-2" class="tab_c">
+    <h1 class="tab_heading">What i am providing?</h1>
+    <p class="tab_text">
+        I am providing all Web Services to boost your business.
+    </p>
 </div>
 
    </div>

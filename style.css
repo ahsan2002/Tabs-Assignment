@@ -9,21 +9,28 @@
     max-width: 500px;
     margin: 0 auto;
     margin-top: 150px;
-    background-color: aqua;
+    background-color: rgb(253, 43, 43);
     font-size: 15px;
     border-radius: 20px;
     font-weight: bold;
     padding: 15px 20px;
     cursor: pointer;
+    user-select: none;
 }
 
 .tabs_content{
     margin: 0 auto;
-    max-width: 700px;
-    background-color: #ccc;
+    max-width: 500px;
+    background-color: rgb(10, 10, 10);
     border-radius: 3px;
     margin-top: 20px;
     text-align: center;
     border-radius: 20px;
     padding: 10px;
+    user-select: none;
+    color: whitesmoke;
+}
+
+.tab_c{
+    display: none;
 }
